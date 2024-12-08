@@ -1,4 +1,4 @@
-SimpleNES
+A Simple Nes Emulator
 =============
 
 
@@ -14,36 +14,14 @@ Examples of games that have been tested to run (but NOT limited to):
 (USA/Japan or World versions only i.e. NTSC compatible)
 
 * Super Mario Bros.
-* Contra
-* Adventure Island
-* Ninja Gaiden
-* Wrecking Crew
-* Megaman and Megaman 2
-* Mario Bros.
 * Donky Kong and Donkey Kong Jr.
-* Battle City
-* Paperboy
 * Legend of Zelda
 * Pacman
-* Tennis
-* Excitebike
 * Nightmare Elm Street
-* Cabal
 * Battletoads
 * Arch Rivals
 * etc...
 
-
-Screenshots
-------------------------
-![Screenshot 1](http://amhndu.github.io/screenshots/nes1.png)
-![Screenshot 2](http://amhndu.github.io/screenshots/nes2.png)
-![Screenshot 3](http://amhndu.github.io/screenshots/nes3.png)
-![Screenshot 4](http://amhndu.github.io/screenshots/nes4.png)
-![Screenshot 5](http://amhndu.github.io/screenshots/nes5.png)
-![Screenshot 6](http://amhndu.github.io/screenshots/nes6.png)
-![Screenshot 6](http://amhndu.github.io/screenshots/nes7.png)
-![Screenshot 6](http://amhndu.github.io/screenshots/nes8.png)
 
 Videos
 ------------
