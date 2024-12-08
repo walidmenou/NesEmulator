@@ -23,12 +23,7 @@ Examples of games that have been tested to run (but NOT limited to):
 * etc...
 
 
-Videos
-------------
-[YouTube Playlist](https://www.youtube.com/playlist?list=PLiULt7qySWt2VbHTkvIt9kYPMPcWt01qN)
-
-
-Compiling
+How To Use
 -----------
 
 You need:
@@ -39,7 +34,7 @@ You need:
 Compiling is straight forward with cmake, just run cmake on the project directory with CMAKE_BUILD_TYPE=Release
 and you'll get Makefile or equivalent for your platform, with which you can compile the emulator
 
-For e.g., on Linux/OS X/FreeBSD:
+For e.g., on Linux/OS X:
 ```
 $ git clone https://github.com/amhndu/SimpleNES
 $ cd SimpleNES
@@ -47,9 +42,6 @@ $ mkdir build/ && cd build/
 $ cmake -DCMAKE_BUILD_TYPE=Release ..
 $ make -j4    #Replace 4 with however many cores you have to spare
 ```
-
-Running
------------------
 
 Just pass the path to a .nes image like
 
@@ -65,7 +57,7 @@ For supported command line options, try
 $ ./SimpleNES -h
 ```
 
-Controller
+Controls
 -----------------
 
 Keybindings can be configured with keybindings.conf
