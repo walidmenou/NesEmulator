@@ -22,41 +22,6 @@ Examples of games that have been tested to run (but NOT limited to):
 * Arch Rivals
 * etc...
 
-
-How To Use
------------
-
-You need:
-* SFML 2.0+ development headers and library
-* C++11 compliant compiler
-* CMake build system
-
-Compiling is straight forward with cmake, just run cmake on the project directory with CMAKE_BUILD_TYPE=Release
-and you'll get Makefile or equivalent for your platform, with which you can compile the emulator
-
-For e.g., on Linux/OS X:
-```
-$ git clone https://github.com/amhndu/SimpleNES
-$ cd SimpleNES
-$ mkdir build/ && cd build/
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
-$ make -j4    #Replace 4 with however many cores you have to spare
-```
-
-Just pass the path to a .nes image like
-
-```
-$ ./SimpleNES ~/Games/SuperMarioBros.nes
-```
-To set size of the window,
-```
-$ ./SimpleNES -w 600 ~/Games/Contra.nes
-```
-For supported command line options, try
-```
-$ ./SimpleNES -h
-```
-
 Controls
 -----------------
 
